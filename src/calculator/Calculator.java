@@ -16,7 +16,7 @@ public class Calculator {
 
     public static double div(double a, double b) {
         if (b == 0) {
-            System.out.println("На ноль делить низзя");
+            System.out.println("На ноль делить нельзя");
         } else {
             return a / b;
         }
